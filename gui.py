@@ -36,7 +36,7 @@ b1.grid(row=0, column=2)
 b2 = Button(window, text="Add", width=3)
 b2.grid(row=0, column=5)
 
-list1 = Listbox(window, height=8, width=55, font=small_font)
+list1 = Listbox(window, height=8, width=55)
 list1.grid(row=2, column=1)
 # list1.grid(row=2, column=1, columnspan=2)
 
